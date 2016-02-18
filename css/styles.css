@@ -1,0 +1,180 @@
+*{
+  box-sizing: border-box;
+}
+
+.header{
+  height: 100vh;
+  /*min-height: 375px;*/
+  background-size: cover;
+  background-position: left;
+  background-image: url("../img/dog.jpg");
+  position: relative;
+}
+
+.header h1,
+.header h3 {
+  margin: 0;
+  text-align: center;
+  font-size: 3.5em;
+  position: relative;
+  top: 80vh;
+  color: rgba(255,255,255,0.7);
+  text-shadow:  2px 2px 5px black;
+  font-family: 'Raleway', sans-serif;
+}
+
+.header h3 {
+  font-size: 2.5em;
+}
+
+.circle{
+  margin: auto;
+  position:absolute;
+  top: 10%;
+  left: 50%;
+  transform: translate(-50%);
+
+  width:200px;
+  height:200px;
+
+  background-color:rgba(255,255,255,0.3);
+  background-image: url('http://tinyurl.com/gwb9mn4');
+  background-size: cover;
+  background-position: bottom;
+  border:5px solid rgba(5,5,5,0.5);
+  border-radius: 50%;
+}
+
+.intro {
+  background: #CBF3E5;
+  padding: 1em;
+}
+
+.intro img{
+  max-width: 100%;
+  /*margin: 0 0em 0 10em;*/
+  border: 1px solid #0B4832;
+  /*box-shadow: 2px 2px 2px #0B4832;*/
+}
+/*.intro .blah {
+  margin: 0 10em 0 0em;
+}*/
+
+.services{
+  background: #97DEC5;
+  padding: 1em;
+}
+
+.services h4{
+  padding-left:10.5px;
+  margin-bottom:0;
+}
+
+.spacer-img img {
+  /*height:300px;*/
+  width:100%;
+
+  margin:0;
+  /*background-image: url("http://lorempixel.com/image_output/cats-q-c-1500-750-4.jpg");*/
+}
+
+.parallax-container {
+     height: 300px;
+   }
+
+.footer{
+  background: #68C3A3;
+  padding: 1em;
+}
+
+.footer p{
+  font-size: 1.0em;
+  margin: 0;
+  padding-top: .25em;
+}
+
+.footer p strong{
+  font-size: 1.1em;
+}
+
+.footer img{
+  max-width: 100%;
+  width:175px;
+  border-radius: 50%;
+  transform: translateY(13%);
+  /*border:5px solid rgba(5,5,5,0.5);*/
+}
+
+.contact,
+.hours {
+  height: 150px;
+}
+
+@media screen and (min-width:700px){
+  .circle{
+    width:400px;
+    height:400px;
+    top: 5%;
+  }
+  .header h1,
+  .header h3 {
+    margin: 0;
+    text-align: center;
+    font-size: 6em;
+    position: relative;
+    top: 80vh;
+  }
+
+  .header h3 {
+    font-size: 2.5em;
+  }
+
+  .intro p,
+  .services li {
+    font-size: 1.17em;
+    line-height: 2em;
+  }
+
+}
+
+@media screen and (min-width:650px)
+              and (orientation: landscape){
+  .circle{
+    width:200px;
+    height:200px;
+    top: 1%;
+  }
+  .header h1,
+  .header h3 {
+    margin: 0;
+    text-align: center;
+    font-size: 4em;
+    position: relative;
+    top: 68vh;
+  }
+
+  .header h3 {
+    font-size: 2.5em;
+  }
+}
+
+@media screen and (min-width:700px)
+              and (orientation: landscape){
+  .circle{
+    width:350px;
+    height:350px;
+    top: 5%;
+  }
+  .header h1,
+  .header h3 {
+    margin: 0;
+    text-align: center;
+    font-size: 6em;
+    position: relative;
+    top: 72vh;
+  }
+
+  .header h3 {
+    font-size: 2.5em;
+  }
+}
