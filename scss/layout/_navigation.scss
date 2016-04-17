@@ -6,30 +6,30 @@
   align-items: center;
   height: 75px;
   width: 100%;
-  background: rgba($emerald, 0.5);
-}
-.nav-brand{
-  font-size: 1.3em;
-  font-weight: 900;
-}
-svg{
-  width: 50px;
-  height: 50px;
-  fill: $white;
-  margin: 20px;
-  transition: all 200ms ease-in-out;
-  &:hover{
-    fill: $magic-mint;
+  background: rgba($dark-magic-mint, 0.3);
+  svg{
+    width: 50px;
+    height: 50px;
+    fill: $white;
+    margin: 20px;
+    transition: all 200ms ease-in-out;
+    &:hover{
+      fill: $magic-mint;
+    }
   }
 }
 
 .nav-link{
   color: $white;
-  font-weight: bold;
+  font-weight: 900;
   font-family: 'Playfair Display', serif;
   transition: all 200ms ease-in-out;
-  padding: 15px;
+  margin: 30px;
+  padding: 30px;
+  border: 1px solid white;
+  border-radius: 5px;
   &:hover{
     color: $magic-mint;
+    background: $dark-magic-mint;
   }
 }

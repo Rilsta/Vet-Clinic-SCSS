@@ -1,13 +1,45 @@
 .hero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column wrap;
   height: 100vh;
   background-size: cover;
   background-position: left;
   background-image: url("../img/dog.jpg");
-  h1, h3{
-    margin: 0;
-    text-align: center;
+  h1{
+    font-size: 5em;
+  }
+  h3{
     font-size: 3.5em;
+  }
+  h1, h3{
+    margin: 10px;
+    text-align: center;
     font-family: 'Playfair Display', serif;
     color: $black;
+    text-shadow: 1px 1px $white;
+  }
+  svg{
+    height: 225px;
+    width: 225px;
+    fill: $black;
+  }
+}
+
+.hero-nav-buttons{
+  margin: 50px;
+  .hero-nav-link{
+    color: $black;
+    font-family: 'Playfair Display', serif;
+    font-size: 1.5em;
+    transition: all 200ms ease-in-out;
+    padding: 15px 100px;
+    border-radius: 5px;
+    background: rgba($dark-magic-mint, 0.9);
+    &:hover{
+      color: $magic-mint;
+      background: $dark-magic-mint;
+    }
   }
 }
