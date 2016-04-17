@@ -1,0 +1,22 @@
+.footer{
+  background: #68C3A3;
+  padding: 1em;
+}
+
+.footer p{
+  font-size: 1.0em;
+  margin: 0;
+  padding-top: .25em;
+}
+
+.footer p strong{
+  font-size: 1.1em;
+}
+
+.footer img{
+  max-width: 100%;
+  width:175px;
+  border-radius: 50%;
+  transform: translateY(13%);
+  /*border:5px solid rgba(5,5,5,0.5);*/
+}

@@ -50,7 +50,63 @@ table {
 *:after {
   box-sizing: border-box; }
 
+body {
+  font-family: sans-serif; }
+
 a {
   text-decoration: none; }
+
+.hero {
+  background: #CBF3E5;
+  padding: 1em; }
+
+.main-nav {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: flex-end;
+  align-items: center;
+  height: 50px;
+  width: 100vw; }
+
+.header {
+  height: 100vh;
+  /*min-height: 375px;*/
+  background-size: cover;
+  background-position: left;
+  background-image: url("../img/dog.jpg");
+  position: relative; }
+
+.header h1,
+.header h3 {
+  margin: 0;
+  text-align: center;
+  font-size: 3.5em;
+  position: relative;
+  top: 80vh;
+  color: rgba(255, 255, 255, 0.7);
+  text-shadow: 2px 2px 5px black;
+  font-family: 'Raleway', sans-serif; }
+
+.header h3 {
+  font-size: 2.5em; }
+
+.footer {
+  background: #68C3A3;
+  padding: 1em; }
+
+.footer p {
+  font-size: 1.0em;
+  margin: 0;
+  padding-top: .25em; }
+
+.footer p strong {
+  font-size: 1.1em; }
+
+.footer img {
+  max-width: 100%;
+  width: 175px;
+  border-radius: 50%;
+  transform: translateY(13%);
+  /*border:5px solid rgba(5,5,5,0.5);*/ }
 
 /*# sourceMappingURL=main.css.map */
