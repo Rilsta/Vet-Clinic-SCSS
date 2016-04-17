@@ -24,11 +24,9 @@
   font-weight: 900;
   font-family: 'Playfair Display', serif;
   transition: all 200ms ease-in-out;
-  margin: 30px;
-  padding: 30px;
-  border: 1px solid white;
+  margin: 20px;
+  padding: 20px;
   &:hover{
     color: $magic-mint;
-    background: $dark-magic-mint;
   }
 }

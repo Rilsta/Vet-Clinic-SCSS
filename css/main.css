@@ -54,6 +54,9 @@ body {
   font-family: sans-serif;
   letter-spacing: 1px; }
 
+body::-webkit-scrollbar {
+  display: none; }
+
 a {
   text-decoration: none; }
 
@@ -117,12 +120,10 @@ a {
   font-weight: 900;
   font-family: 'Playfair Display', serif;
   transition: all 200ms ease-in-out;
-  margin: 30px;
-  padding: 30px;
-  border: 1px solid white; }
+  margin: 20px;
+  padding: 20px; }
   .nav-link:hover {
-    color: #abf0c7;
-    background: #79a78c; }
+    color: #abf0c7; }
 
 .footer {
   background: #68C3A3;
@@ -149,7 +150,8 @@ body {
 .service-content {
   display: flex;
   flex-flow: row wrap;
-  justify-content: center; }
+  justify-content: space-between;
+  align-items: center; }
 
 .service-img {
   background-image: url("../img/pug.jpg");
@@ -158,5 +160,22 @@ body {
   background-size: cover;
   width: 50vw;
   height: 100vh; }
+
+.service-list {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+  width: 50vw;
+  height: 100vh;
+  background-color: #c9c9c9; }
+
+#dentistry-sub-list,
+#laboratory-sub-list,
+#surgery-sub-list,
+#fertility-sub-list,
+#internal-sub-list {
+  color: goldenrod;
+  text-indent: 20px; }
 
 /*# sourceMappingURL=main.css.map */

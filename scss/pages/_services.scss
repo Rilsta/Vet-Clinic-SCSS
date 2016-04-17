@@ -5,7 +5,8 @@ body{
 .service-content{
   display: flex;
   flex-flow: row wrap;
-  justify-content: center;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .service-img{
@@ -15,4 +16,23 @@ body{
   background-size: cover;
   width: 50vw;
   height: 100vh;
+}
+
+.service-list{
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+  width: 50vw;
+  height: 100vh;
+  background-color: $grey;
+}
+
+#dentistry-sub-list,
+#laboratory-sub-list,
+#surgery-sub-list,
+#fertility-sub-list,
+#internal-sub-list{
+  color: goldenrod;
+  text-indent: 20px;
 }
