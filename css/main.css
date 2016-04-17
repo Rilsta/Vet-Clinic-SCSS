@@ -175,6 +175,7 @@ body {
 #surgery-sub-list,
 #fertility-sub-list,
 #internal-sub-list {
+  display: none;
   color: goldenrod;
   text-indent: 20px; }
 
