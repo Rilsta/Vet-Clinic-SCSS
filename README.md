@@ -10,7 +10,8 @@ Communicate ideas and services more clearly. Change layout for better user inter
 ## View
 
 Original site for comparison can be found here: http://roxyannvet.com/
-Redesigned version can be found here: <insert link to heroku>
+
+Redesigned version can be found here: http://rilsta.github.io/Vet-Clinic-SCSS/
 
 ## License
 MIT License 2016
