@@ -1,8 +1,35 @@
 .main-nav{
+  position: fixed;
   display: flex;
   flex-flow: row wrap;
-  justify-content: flex-end;
+  justify-content: space-between;
   align-items: center;
+  height: 75px;
+  width: 100%;
+  background: rgba($emerald, 0.5);
+}
+.nav-brand{
+  font-size: 1.3em;
+  font-weight: 900;
+}
+svg{
+  width: 50px;
   height: 50px;
-  width: 100vw;
+  fill: $white;
+  margin: 20px;
+  transition: all 200ms ease-in-out;
+  &:hover{
+    fill: $magic-mint;
+  }
+}
+
+.nav-link{
+  color: $white;
+  font-weight: bold;
+  font-family: 'Playfair Display', serif;
+  transition: all 200ms ease-in-out;
+  padding: 15px;
+  &:hover{
+    color: $magic-mint;
+  }
 }

@@ -1,4 +1,13 @@
 .hero {
-  background: #CBF3E5;
-  padding: 1em;
+  height: 100vh;
+  background-size: cover;
+  background-position: left;
+  background-image: url("../img/dog.jpg");
+  h1, h3{
+    margin: 0;
+    text-align: center;
+    font-size: 3.5em;
+    font-family: 'Playfair Display', serif;
+    color: $black;
+  }
 }
