@@ -28,6 +28,18 @@ body{
   background-color: $grey;
 }
 
+#dentistry-list-item,
+#laboratory-list-item,
+#surgery-list-item,
+#fertility-list-item,
+#internal-list-item{
+  font-weight: bold;
+  cursor: pointer;
+  &:hover{
+    color:$white;
+  }
+}
+
 #dentistry-sub-list,
 #laboratory-sub-list,
 #surgery-sub-list,

@@ -170,6 +170,20 @@ body {
   height: 100vh;
   background-color: #c9c9c9; }
 
+#dentistry-list-item,
+#laboratory-list-item,
+#surgery-list-item,
+#fertility-list-item,
+#internal-list-item {
+  font-weight: bold;
+  cursor: pointer; }
+  #dentistry-list-item:hover,
+  #laboratory-list-item:hover,
+  #surgery-list-item:hover,
+  #fertility-list-item:hover,
+  #internal-list-item:hover {
+    color: #f4f4f4; }
+
 #dentistry-sub-list,
 #laboratory-sub-list,
 #surgery-sub-list,
