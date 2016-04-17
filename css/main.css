@@ -89,7 +89,6 @@ a {
     font-size: 1.5em;
     transition: all 200ms ease-in-out;
     padding: 15px 100px;
-    border-radius: 5px;
     background: rgba(121, 167, 140, 0.9); }
     .hero-nav-buttons .hero-nav-link:hover {
       color: #abf0c7;
@@ -120,8 +119,7 @@ a {
   transition: all 200ms ease-in-out;
   margin: 30px;
   padding: 30px;
-  border: 1px solid white;
-  border-radius: 5px; }
+  border: 1px solid white; }
   .nav-link:hover {
     color: #abf0c7;
     background: #79a78c; }
@@ -144,5 +142,21 @@ a {
   border-radius: 50%;
   transform: translateY(13%);
   /*border:5px solid rgba(5,5,5,0.5);*/ }
+
+body {
+  background: #f4f4f4; }
+
+.service-content {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center; }
+
+.service-img {
+  background-image: url("../img/pug.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 50vw;
+  height: 100vh; }
 
 /*# sourceMappingURL=main.css.map */

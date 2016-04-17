@@ -1,0 +1,18 @@
+body{
+  background: $white;
+}
+
+.service-content{
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+
+.service-img{
+  background-image: url('../img/pug.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 50vw;
+  height: 100vh;
+}
