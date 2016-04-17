@@ -125,24 +125,23 @@ a {
   .nav-link:hover {
     color: #abf0c7; }
 
-.footer {
-  background: #68C3A3;
-  padding: 1em; }
+.page-header {
+  text-align: left;
+  font-size: 3em;
+  font-family: 'Playfair Display', serif;
+  margin: 20px; }
 
-.footer p {
-  font-size: 1.0em;
-  margin: 0;
-  padding-top: .25em; }
-
-.footer p strong {
-  font-size: 1.1em; }
-
-.footer img {
-  max-width: 100%;
-  width: 175px;
-  border-radius: 50%;
-  transform: translateY(13%);
-  /*border:5px solid rgba(5,5,5,0.5);*/ }
+footer {
+  position: fixed;
+  bottom: 0;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  align-items: center;
+  color: #f4f4f4;
+  height: 50px;
+  width: 100%;
+  background: rgba(121, 167, 140, 0.4); }
 
 body {
   background: #f4f4f4; }
@@ -158,24 +157,31 @@ body {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  width: 50vw;
+  width: 40vw;
   height: 100vh; }
 
-.service-list {
+.service-list-container {
   display: flex;
   flex-flow: column wrap;
   justify-content: center;
   align-items: center;
-  width: 50vw;
+  width: 60vw;
   height: 100vh;
   background-color: #c9c9c9; }
+
+.service-list {
+  padding: 20px;
+  width: 70%;
+  background: rgba(244, 244, 244, 0.5); }
+
+.service-list-styles {
+  line-height: 25px; }
 
 #dentistry-list-item,
 #laboratory-list-item,
 #surgery-list-item,
 #fertility-list-item,
 #internal-list-item {
-  font-weight: bold;
   cursor: pointer; }
   #dentistry-list-item:hover,
   #laboratory-list-item:hover,
@@ -190,7 +196,8 @@ body {
 #fertility-sub-list,
 #internal-sub-list {
   display: none;
-  color: goldenrod;
-  text-indent: 20px; }
+  color: #212121;
+  text-indent: 10px;
+  font-size: 0.8em; }
 
 /*# sourceMappingURL=main.css.map */

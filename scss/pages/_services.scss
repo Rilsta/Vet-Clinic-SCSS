@@ -14,18 +14,28 @@ body{
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  width: 50vw;
+  width: 40vw;
   height: 100vh;
 }
 
-.service-list{
+.service-list-container{
   display: flex;
   flex-flow: column wrap;
   justify-content: center;
   align-items: center;
-  width: 50vw;
+  width: 60vw;
   height: 100vh;
   background-color: $grey;
+}
+
+.service-list{
+  padding: 20px;
+  width: 70%;
+  background: rgba($white, 0.5);
+}
+
+.service-list-styles{
+  line-height: 25px;
 }
 
 #dentistry-list-item,
@@ -33,7 +43,6 @@ body{
 #surgery-list-item,
 #fertility-list-item,
 #internal-list-item{
-  font-weight: bold;
   cursor: pointer;
   &:hover{
     color:$white;
@@ -46,6 +55,7 @@ body{
 #fertility-sub-list,
 #internal-sub-list{
   display: none;
-  color: goldenrod;
-  text-indent: 20px;
+  color: $black;
+  text-indent: 10px;
+  font-size: 0.8em;
 }
