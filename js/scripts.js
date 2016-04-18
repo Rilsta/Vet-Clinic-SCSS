@@ -14,4 +14,6 @@ $(document).ready(function(){
   $('#internal-list-item').click(function(){
     $('#internal-sub-list').slideToggle();
   });
+
+  $('.hidden').fadeIn(1000).removeClass('hidden');
 });

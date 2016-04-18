@@ -60,6 +60,9 @@ body::-webkit-scrollbar {
 a {
   text-decoration: none; }
 
+.hidden {
+  display: none; }
+
 .hero {
   display: flex;
   justify-content: center;
