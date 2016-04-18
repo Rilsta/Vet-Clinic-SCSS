@@ -21,11 +21,10 @@
 
 .nav-link{
   color: $white;
-  font-weight: 900;
   font-family: 'Playfair Display', serif;
   transition: all 200ms ease-in-out;
-  margin: 20px;
-  padding: 20px;
+  margin: 15px;
+  padding: 15px;
   &:hover{
     color: $magic-mint;
   }
